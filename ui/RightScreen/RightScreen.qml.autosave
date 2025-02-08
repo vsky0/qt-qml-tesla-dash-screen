@@ -75,6 +75,6 @@ Rectangle {
 
         font.pixelSize: 15
         font.bold: true
-        text: sytemHandler.userName + " C"
+        text: sytemHandler.userName
     }
 }

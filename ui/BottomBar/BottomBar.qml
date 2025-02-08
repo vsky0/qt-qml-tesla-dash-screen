@@ -19,4 +19,16 @@ Rectangle {
         font.pointSize: 15
         font.bold: true
     }
+
+    Image {
+        id: carSettingsIcon
+        anchors {
+            left: parent.left
+            leftMargin: 30
+            verticalCenter: parent.verticalCenter
+        }
+        height: parent.height*0.85
+        fillMode: Image.PreserveAspectFit
+        source: "qrc:/ui/assets/car-icon.png"
+    }
 }
